@@ -1,0 +1,6 @@
+.env
+.deployment
+stream_chat_1.py
+stream_1.py
+deployment.yml
+tmp/audio.wav
