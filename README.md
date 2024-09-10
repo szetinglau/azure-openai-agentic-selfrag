@@ -6,6 +6,8 @@ Self-RAG is a strategy for RAG that incorporates self-reflection / self-grading 
 
 For simplicity purposes, the application implements the agent using the OpenAI Python SDK's chat completion API and function calling. This provides extended customization possibilities as well as more control over the orchestration, prompts etc.
 
+![image](selfrag.png)
+
 ## Pre-requisites
 This repo assumes you already have the following resources deployed:
 1. Azure OpenAI resource and deployment (ideally GPT-4o)
