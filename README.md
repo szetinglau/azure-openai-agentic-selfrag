@@ -11,17 +11,17 @@ This repo assumes you already have the following resources deployed:
 1. Azure OpenAI resource and deployment (ideally GPT-4o)
 2. Azure Cognitive Search
 
-### Step 1: Populate .env file with your credentials
+### 1. Populate .env file with your credentials
 
 Open the [.env.sample](./.env.sample) file and replace the placeholders with your Azure OpenAI and Search credentials, save the file an name it `.env`.
 
-### Install dependencies
+### 2. Install dependencies
 Create a virtual environment with Python 3.10 or above and run the following command:
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 3. [Streamlit Application](./agent-selfrag-app/)
+### 3. [Streamlit Application](./agent-selfrag-app/)
 
 Run the Streamlit app using the following command:
 
